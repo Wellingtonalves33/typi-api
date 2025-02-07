@@ -1,0 +1,31 @@
+{
+  "name": "typi-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch ./src/server.ts",
+    "build": "tsc",
+    "format": "biome format .",
+    "lint": "biome lint .",
+    "check": "biome check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Wellington Alves",
+    "email": "wellingtonvdtc@gmail.com",
+    "url": "https://github.com/Wellingtonalves33"
+  },
+  "license": "ISC",
+  "description": "Debills API - controle sua vida finaceira com um simples cadastro de receitas e despesas",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
