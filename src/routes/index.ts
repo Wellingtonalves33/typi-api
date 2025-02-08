@@ -1,6 +1,9 @@
 import { Router } from 'express';
+
 import { baseRouters } from './base.route';
+import { categoriesRoutes } from './categories.route';
 
-export const routers = Router();
+export const routes = Router();
 
-routers.use('/', baseRouters);
+routes.use('/', baseRouters);
+routes.use('/categories', categoriesRoutes);
