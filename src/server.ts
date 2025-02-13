@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express, { json } from 'express';
-import { set } from 'mongoose';
+
 import { setupMongo } from './database';
 import { routes } from './routes';
 
